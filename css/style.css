@@ -9,7 +9,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #788af0 16.62%, #ffffff 85.61%);
+    /*background: linear-gradient(68.15deg, #788af0 16.62%, #ffffff 85.61%);*/
 }
 
 .cabecalho {
@@ -18,6 +18,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+    background-image: url(../img/plano-fundo.png);
 }
 
 .cabecalho img {
@@ -33,13 +34,14 @@ body {
 
 .cabecalho nav a {
     font-family: 'Sarala', sans-serif;
-    color: #2559b9;
+    color: #ffffff;
     font-weight: 400;
     font-size: 18px;
 }
 
 .cabecalho nav a:hover {
-    color: #5bb5ff;
+    /* color: #5bb5ff; */
+    color: #2559b9;
 }
 
 .conteudo {
@@ -76,7 +78,8 @@ body {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #696868;
 }
 
 .conteudo-secundario {
@@ -88,7 +91,7 @@ body {
 }
 
 .conteudo-secundario h3 {
-    border-top: 0.4px solid #ffffff;
+    border-top: 0.4px solid #696868;
     padding-top: 48px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
@@ -101,19 +104,22 @@ body {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: #696868;
 }
 
 .rodape {
     display: flex;
     justify-content: center;
-    padding: 35px;
+    padding: 20px;
     border-top: 0.4px solid #ffffff;
+    background-image: url(../img/plano-fundo.png);
 }
 
 .rodape span {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 16px;
-    color: #2559b9;
+    /*color: #2559b9;*/
+    color: #ffffff;
 }
