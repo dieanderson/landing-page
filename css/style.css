@@ -21,7 +21,7 @@ body {
     background-image: url(../img/plano-fundo.png);
 }
 
-.cabecalho img {
+.img-perfil {
     width: 100px;
     border-radius: 50%;
     border: 2px solid #ffffff;
@@ -39,10 +39,6 @@ body {
     font-size: 18px;
 }
 
-.cabecalho nav a:hover {
-    /* color: #5bb5ff; */
-    color: #2559b9;
-}
 
 .conteudo {
     margin-bottom: 48px;
