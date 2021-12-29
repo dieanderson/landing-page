@@ -1,4 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #788af0 16.62%, #ffffff 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+.cabecalho nav {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho nav a {
+    font-family: 'Sarala', sans-serif;
+    color: #2559b9;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho nav a:hover {
+    color: #5bb5ff;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #ffffff;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal img {
+    width: 350px;
+    margin-top: 40px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #2559b9;
+}
+
+.conteudo-principal-escrito h2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario h3 {
+    border-top: 0.4px solid #ffffff;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2559b9;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario p {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    border-top: 0.4px solid #ffffff;
+}
+
+.rodape span {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2559b9;
 }
