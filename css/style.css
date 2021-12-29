@@ -9,7 +9,6 @@
 
 body {
     font-size: 100%;
-    /*background: linear-gradient(68.15deg, #788af0 16.62%, #ffffff 85.61%);*/
 }
 
 .cabecalho {
@@ -19,6 +18,7 @@ body {
     justify-content: space-around;
     padding: 24px;
     background-image: url(../img/plano-fundo.png);
+    border-radius: 0 0 25px 25px;
 }
 
 .img-perfil {
@@ -28,8 +28,7 @@ body {
 }
 
 .cabecalho nav {
-    display: flex;
-    gap: 32px;
+    gap: 100px;
 }
 
 .cabecalho nav a {
@@ -39,27 +38,12 @@ body {
     font-size: 18px;
 }
 
-
-.conteudo {
-    margin-bottom: 48px;
-    border-top: 0.4px solid #ffffff;
-}
-
-.conteudo-principal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.conteudo-principal img {
-    width: 350px;
-    margin-top: 40px;
+.img-main {
+    width: 70%;
+    margin: 20px 40px;
 }
 
 .conteudo-principal-escrito {
-    display: flex;
-    flex-direction: column;
     gap: 32px;
 }
 
@@ -74,20 +58,15 @@ body {
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    /*color: #ffffff;*/
     color: #696868;
 }
 
 .conteudo-secundario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 24px;
     margin-top: 48px;
 }
 
 .conteudo-secundario h3 {
-    border-top: 0.4px solid #696868;
     padding-top: 48px;
     font-family: 'Righteous', cursive;
     font-weight: 400;
@@ -100,22 +79,18 @@ body {
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    /*color: #ffffff;*/
     color: #696868;
 }
 
 .rodape {
-    display: flex;
-    justify-content: center;
     padding: 20px;
-    border-top: 0.4px solid #ffffff;
     background-image: url(../img/plano-fundo.png);
+    border-radius: 25px 25px 0 0;
 }
 
 .rodape span {
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 16px;
-    /*color: #2559b9;*/
     color: #ffffff;
 }
