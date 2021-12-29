@@ -50,8 +50,9 @@ body {
 .conteudo-principal-escrito h1 {
     font-family: 'Righteous', cursive;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 52px;
     color: #2559b9;
+    margin-bottom: 25px;
 }
 
 .conteudo-principal-escrito h2 {
@@ -72,7 +73,7 @@ body {
     font-weight: 400;
     font-size: 24px;
     color: #2559b9;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 .conteudo-secundario p {
@@ -80,12 +81,14 @@ body {
     font-weight: 300;
     font-size: 18px;
     color: #696868;
+
 }
 
 .rodape {
     padding: 20px;
     background-image: url(../img/plano-fundo.png);
     border-radius: 25px 25px 0 0;
+    margin-top: 40px;
 }
 
 .rodape span {
